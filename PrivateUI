@@ -47,7 +47,7 @@ local CoreGui = cloneref(game:GetService('CoreGui'))
 local Debris = cloneref(game:GetService('Debris'))
 
 local mouse = Players.LocalPlayer:GetMouse()
-local old_Noxware = CoreGui:FindFirstChild('Noxware')
+local old_Noxware = CoreGui:FindFirstChild('Zeryx | Paid Version')
 
 if old_Noxware then
     Debris:AddItem(old_Noxware, 0)
@@ -515,15 +515,15 @@ end
 
 
 function Library:create_ui()
-    local old_Noxware = CoreGui:FindFirstChild('Noxware')
+    local old_Noxware = CoreGui:FindFirstChild('Zeryx | Paid Version')
 
-    if old_Noxware then
+    if old_ then
         Debris:AddItem(old_Noxware, 0)
     end
 
     local Noxware = Instance.new('ScreenGui')
     Noxware.ResetOnSpawn = false
-    Noxware.Name = 'Zeryx'
+    Noxware.Name = 'Zeryx | Paid Version'
     Noxware.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     Noxware.Parent = CoreGui
     
