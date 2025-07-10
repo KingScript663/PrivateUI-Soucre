@@ -523,7 +523,7 @@ function Library:create_ui()
 
     local Noxware = Instance.new('ScreenGui')
     Noxware.ResetOnSpawn = false
-    Noxware.Name = 'Zeryx | Paid Version'
+    Noxware.Name = 'Zeryx'
     Noxware.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     Noxware.Parent = CoreGui
     
