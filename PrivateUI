@@ -1914,7 +1914,7 @@ function Library:create_ui()
                 Drag.Parent = Slider
                 
                 local UICorner = Instance.new('UICorner')
-                UICorner.CornerRadius = UDim.new(1, 0)
+                UICorner.CornerRadius = UDim.new(2, 0)
                 UICorner.Parent = Drag
                 
                 local Fill = Instance.new('Frame')
